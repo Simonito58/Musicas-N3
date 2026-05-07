@@ -2,15 +2,19 @@ html{
     scroll-behavior: smooth;
 }
 
+
 .row {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
 }
+
 
 .section img{
     display: block;
 }
+
 
 .section{
     display: flex;
@@ -18,13 +22,14 @@ html{
     padding: 10px;
 }
 
+
 .column{
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
-    margin-top: 30px;
-    padding-bottom: 10%;       
+    margin-right: 7%;
+    margin-top: 0px;  
 }
+
 
 .row p {
     text-align: center;
@@ -36,10 +41,12 @@ html{
     font-family: sans-serif;
 }
 
+
 body{
     margin:0;
     background-color: rgb(238, 237, 189);
 }
+
 
 header{
     background-color:rgb(117, 91, 50);
@@ -54,10 +61,12 @@ header{
     text-align: center;
 }
 
+
 nav a:hover{
     transform: scale(1.05);
     color: rgb(82, 64, 35);
 }
+
 
 nav{
     background-color:rgb(207, 200, 143);
@@ -70,6 +79,7 @@ nav{
     font-weight: bold;
 }
 
+
 nav a{
     transition: transform 0.3s ease;
     transition: color 0.3s ease;
@@ -78,23 +88,29 @@ nav a{
 }
 
 
+
+
 h2{
     font-family: cursive;
     text-align: center;
     color: rgb(82, 64, 35);
 }
 
+
 #intr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgb(255, 254, 206);
+    justify-items: center;
+    background-color:rgb(255, 254, 187);
     height: 400px;
 }
+
 
 #intr h2{
     padding-top: 40px;
 }
+
 
 #intr p{
     text-align: center;
@@ -108,6 +124,7 @@ h2{
     padding-top: 30px;
 }
 
+
 #mel{
     display: flex;
     flex-direction: column;
@@ -115,10 +132,12 @@ h2{
     height: 600px;
 }
 
+
 #mel h2{
     padding-top: 20px;
     font-size: 50px;
 }
+
 
 #mel img{
     width: 500px;
@@ -126,10 +145,11 @@ h2{
     margin-top: -50px;
 }
 
+
 #mel p{
     text-align: center;
     font-weight: bold;
-    max-width: 550px;
+    max-width: 700px;
     font-size:18px;
     font-weight:600;
     text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
@@ -138,17 +158,20 @@ h2{
     padding-top: 20px;
 }
 
+
 #har{
     display: flex;
     flex-direction: column;
-    background-color:rgb(255, 234, 252);
+    background-color:rgb(228, 186, 131);
     height: 600px;
 }
+
 
 #har h2{
     padding-top: 20px;
     font-size: 50px;
 }
+
 
 #har img{
     width: 500px;
@@ -156,39 +179,44 @@ h2{
     padding-bottom: 100px;
 }
 
+
 #har p{
-    
+   
     text-align: center;
     font-weight: bold;
-    max-width: 600px;
+    max-width: 800px;
     font-size:18px;
     font-weight:600;
     text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
     color:black;
     font-family: sans-serif;
-    padding-top: 20px;
 }
 #inst{
     display: flex;
     flex-direction: column;
-    background-color:rgb(255, 115, 96);
-    height: 500px;
+    background-color:rgb(226, 238, 121);
+    height: 1200px;
+    align-items: center;
 }
+
 
 #inst h2{
     padding-top: 20px;
+    font-size: 27px;
 }
+
 
 #inst img{
     width: 500px;
     height: auto;
-    margin-top: -50px;
+    transform: translateY(-50px)
 }
+
 
 #inst p{
     text-align: center;
     font-weight: bold;
-    max-width: 600px;
+    max-width: 400px;
     font-size:18px;
     font-weight:600;
     text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
@@ -196,6 +224,53 @@ h2{
     font-family: sans-serif;
     padding-top: 20px;
 }
+
+
+#table{
+    transform: translateY(-240px);
+    transition: transform 0.3 ease;
+}
+
+
+#inst .row{
+    justify-content: center;
+    gap: 200px;
+    padding: 5px;
+}
+
+
+#inst .middle{
+    justify-content: center;
+    transform: translateY(-268px)
+}
+
+
+#inst .column{
+    align-items: center;
+    margin-right: 0;
+
+
+}
+
+
+table, th, td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    font-size:15px;
+    border: 3px solid black;
+}
+
+
+table{
+    transition: transform 0.3s ease;
+}
+
+
+table:hover{
+    transform: scale(1.05)
+}
+
+
 #voc{
     display: flex;
     flex-direction: column;
@@ -203,15 +278,18 @@ h2{
     height: 500px;
 }
 
+
 #voc h2{
     padding-top: 20px;
 }
+
 
 #voc img{
     width: 500px;
     height: auto;
     margin-top: -50px;
 }
+
 
 #voc p{
     text-align: center;
@@ -231,15 +309,18 @@ h2{
     height: 500px;
 }
 
+
 #sam h2{
     padding-top: 20px;
 }
+
 
 #sam img{
     width: 500px;
     height: auto;
     margin-top: -50px;
 }
+
 
 #sam p{
     text-align: center;
@@ -253,6 +334,7 @@ h2{
     padding-top: 20px;
 }
 
+
 #eff{
     display: flex;
     flex-direction: column;
@@ -260,15 +342,18 @@ h2{
     height: 500px;
 }
 
+
 #eff h2{
     padding-top: 20px;
 }
+
 
 #eff img{
     width: 500px;
     height: auto;
     margin-top: -50px;
 }
+
 
 #eff p{
     text-align: center;
@@ -282,6 +367,7 @@ h2{
     padding-top: 20px;
 }
 
+
 .contvid{
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     border: 10px solid white;
@@ -289,17 +375,20 @@ h2{
     transition: transform 0.3s ease;
     margin-left: 75px;
     width: fit-content;
-    border-radius: 12px; 
+    border-radius: 12px;
 }
+
 
 iframe {
     display: block;
-    border:none; 
+    border:none;
 }
+
 
 .contvid:hover{
     transform:scale(1.04)
 }
+
 
 footer{
     background-color:rgb(117, 91, 50);
