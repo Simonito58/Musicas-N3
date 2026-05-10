@@ -327,7 +327,7 @@ table:hover{
     display: flex;
     flex-direction: column;
     background-color:rgb(80, 187, 146);
-    height: 500px;
+    height: 550px;
 }
 
 
@@ -382,7 +382,7 @@ h5{
     display: flex;
     flex-direction: column;
     background-color:rgb(134, 66, 119);
-    height: 500px;
+    height: 570px;
 }
 
 
@@ -419,16 +419,86 @@ h5{
     margin-left: 100px;
 }
 
+
+#MF{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 230, 254);
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 230, 254, 0.85), rgba(255, 230, 254, 0.85)), url("../IMAGEM/cherry.gif");
+    background-size: contain;
+}
+
+.contvid2:hover{
+    transform: scale(1.04);
+}
+
+#MF h2{
+    padding-top: 20px;
+    font-size: 40px;
+    transform: translateX(-60px);
+}
+
+#MF h3{
+    font-size: 20px;
+}
+
+#MF img{
+    width: 500px;
+    height: auto;
+    transition: width 0.3s ease;
+    transform: translateY(-50px)
+}
+
+#MF img:hover{
+    width: 525px;
+}
+
+#MF p{
+    text-align: center;
+    font-weight: bold;
+    max-width: 500px;
+    font-size:18px;
+    font-weight:600;
+    text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
+    color:black;
+    font-family: sans-serif;
+    padding-top: 20px;
+    transform: translateX(20px) translateY(-25px);
+}
+
 .contvid{
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     border: 10px solid white;
     display: inline-block;
     transition: transform 0.3s ease;
-    margin-left: 75px;
+    margin-left: 10px;
     width: fit-content;
     border-radius: 12px;
 }
 
+.contvid2{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 10px solid white;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+.contvid3:hover{
+    transform: scale(1.04);
+}
+
+.contvid3{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 10px solid white;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    width: fit-content;
+    border-radius: 12px;
+    margin-right: 37.5px;
+}
 
 #eff .column audio{
     display: block;
@@ -450,16 +520,22 @@ audio:hover{
     transform: scale(1.05);
 }
 
-iframe {
+.Mf{
     display: block;
-    border:none;
+    border: none;
+    width: 500px;
+    height: 281.4px;
+}
+
+.MsF{
+    width: 281.4px;
+    height: 300px;
 }
 
 
 .contvid:hover{
     transform:scale(1.04)
 }
-
 
 footer{
     background-color:rgb(117, 91, 50);
@@ -471,5 +547,126 @@ footer{
     height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-     
 }
+
+
+#MF .column{
+    margin-right: 0;
+    align-items: center;
+}
+
+#MF .row{
+    align-items: flex-start;
+    gap: 25px;
+}
+
+#nogap{
+    transform: translateY(-100px) translateX(30px);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 237, 189);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    border: 5px solid rgb(117, 91, 50);
+    border-radius: 12px;
+    background-color: rgb(255, 254, 187);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 1s ease;
+    margin:15px;
+}
+
+form:hover{
+    transform:scale(1.01);
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    max-width: 1100px;
+    font-size:18px;
+    font-weight:600;
+    text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
+    color:black;
+    font-family: sans-serif;
+}
+
+legend{
+    text-align: center;
+    font-weight: bold;
+    max-width: 1100px;
+    font-size:18px;
+    font-weight:600;
+    text-shadow: 2px 2px 5px rgba(92, 82, 62, 0.568);
+    color:black;
+    font-family: sans-serif;
+}
+
+fieldset{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 5px solid rgb(117, 91, 50);
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    display:inline-block;
+}
+
+input{
+    background-color: rgb(255, 254, 216);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 3px solid rgb(117, 91, 50);
+    border-radius: 5px;
+}
+
+form a{
+    transition: transform 0.3s ease;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+a:hover{
+    transform: scale(1.05)
+}
+
+.star{
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
+.star input{
+    display: none;
+}
+
+.star label{
+    cursor:pointer;
+    font-size: 36px;
+    color: #ccc;
+    transition: color 0.2s ease;
+}
+
+.button{
+    cursor:pointer;
+}
+
+.star input:checked~label,.star label:hover,.star label:hover ~ label{
+    color: #ffca08;
+}
+
+#star3{
+    transform: translateX(-20px)
+}
+
+
