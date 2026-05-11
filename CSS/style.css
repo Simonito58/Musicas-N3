@@ -802,7 +802,7 @@ a:hover{
 }
 
 .dark #eff img{
-    filter:drop-shadow(2px 0 0 rgb(134, 66, 119)) drop-shadow(-2px 0 0 rgb(134, 66, 119)) drop-shadow(0 2px 0 rgb(134, 66, 119)) drop-shadow(0 -2px 0 rgb(134, 66, 119));
+    filter: drop-shadow(2px 0 0 rgb(134, 66, 119)) drop-shadow(-2px 0 0 rgb(134, 66, 119)) drop-shadow(0 2px 0 rgb(134, 66, 119)) drop-shadow(0 -2px 0 rgb(134, 66, 119));
 }
 
 .dark #eff{
@@ -820,6 +820,10 @@ a:hover{
 .dark #MF{
     background-color: rgb(24, 19, 11);
     background-image: none;
+}
+
+.dark #MF h3{
+    color:rgb(255, 230, 254);
 }
 
 .dark .contvid, .dark .contvid2, .dark .contvid3{
